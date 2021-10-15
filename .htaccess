@@ -1,4 +1,7 @@
-AuthUserFile /full/path/to/.htpasswd
+AuthUserFile /cyptomichael/BIT607/.htpasswd
 AuthType Basic
 AuthName "My Secret Folder"
 Require valid-user
+<Files "staffroster.html">
+  Require valid-user
+</Files>
